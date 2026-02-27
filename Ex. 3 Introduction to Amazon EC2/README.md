@@ -2,17 +2,17 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: PRIYADARSHINI K
+* **Register Number**: 212224100046
+* **Date of Submission**: 27-02-2026
 
----
+
 
 ## Objective
 
 The objective of this experiment is to understand the fundamentals of Amazon Elastic Compute Cloud (EC2). This lab focuses on launching and managing a virtual server, understanding instance types and AMIs, connecting to an EC2 instance, monitoring its status, and performing basic instance operations such as start, stop, and terminate.
 
----
+
 
 ## Prerequisites
 
@@ -21,7 +21,7 @@ The objective of this experiment is to understand the fundamentals of Amazon Ela
 * Web browser with internet connectivity
 * Basic knowledge of Linux commands (optional)
 
----
+
 
 ## Tools Used
 
@@ -31,7 +31,7 @@ The objective of this experiment is to understand the fundamentals of Amazon Ela
 * Security Group
 * SSH Client (PuTTY / Terminal)
 
----
+
 
 ## Tasks Performed
 
@@ -39,13 +39,15 @@ The objective of this experiment is to understand the fundamentals of Amazon Ela
 
 Explore the EC2 service dashboard in the AWS Management Console. Observe the different sections such as Instances, AMIs, Instance Types, Key Pairs, Security Groups, and Elastic IPs.
 
----
+
+
 
 ### Task 2: Launch an EC2 Instance
 
 Launch a new EC2 instance using Amazon Linux 2 AMI. Select an appropriate instance type (t2.micro) under the free tier. Configure basic settings such as instance name, key pair, and security group.
 
----
+
+
 
 ### Task 3: Configure Security Group
 
@@ -56,7 +58,7 @@ Configure a security group to allow inbound access:
 
 This security group acts as a firewall for the instance.
 
----
+
 
 ### Task 4: Connect to EC2 Instance
 
@@ -68,7 +70,8 @@ For Amazon Linux:
 ssh -i "keyname.pem" ec2-user@<Public-IP>
 ```
 
----
+
+
 
 ### Task 5: Perform Basic Instance Operations
 
@@ -80,51 +83,53 @@ Perform the following operations from the EC2 console:
 
 Observe the state changes of the instance.
 
----
+
+
 
 ### Task 6: Monitor EC2 Instance
 
 Monitor the EC2 instance using the Monitoring tab. Observe metrics such as CPU utilization, network in/out, and instance status checks.
 
----
+
+
 
 ### Task 7: Terminate EC2 Instance
 
 Terminate the EC2 instance after completing the experiment to avoid unnecessary AWS charges.
 
----
+
+
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+Task 1: Launch Your Amazon EC2 Instance
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+Task 2: Monitor Your Instance
 
----
+Task 3: Update Your Security Group and Access the Web Server
 
-## Output Screenshots (Attach 3)
+Task 4: Resize Your Instance: Instance Type and EBS Volume
+
+Task 5: Explore EC2 Limits
+
+Task 6: Test Stop Protection
+
+## Output Screenshots 
 
 ### Screenshot 1: EC2 Dashboard / Instance List
 
-(Insert Screenshot Here)
+![WhatsApp Image 2026-02-27 at 8 31 35 AM](https://github.com/user-attachments/assets/ab9a0dfe-f537-4f63-9e2b-1d8080688a1d)
 
----
 
 ### Screenshot 2: SSH Connection to Instance
 
-(Insert Screenshot Here)
+<img width="657" height="422" alt="image" src="https://github.com/user-attachments/assets/64a47d5f-f437-41a0-9004-3a0963ba9c7e" />
 
----
 
 ### Screenshot 3: Instance Monitoring / Status
 
-(Insert Screenshot Here)
+![WhatsApp Image 2026-02-27 at 9 05 20 AM](https://github.com/user-attachments/assets/050b5134-3667-495a-92ca-aec7cbe0e087)
 
----
 
 ## Result 
 
