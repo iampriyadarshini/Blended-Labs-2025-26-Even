@@ -2,10 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
-
+* **Name**:PRIYADARSHINI K
+* **Register Number**: 212224100046
+* **Date of Submission**: 20-03-2026
 ---
 
 ## Objective
@@ -39,7 +38,6 @@ The objective of this experiment is to understand how to deploy and configure a 
 
 Launch a new EC2 instance using Amazon Linux 2 AMI. Select an appropriate instance type and configure key pair and security group.
 
----
 
 ### Task 2: Configure Security Group for Database Access
 
@@ -48,7 +46,6 @@ Modify the security group to allow:
 * SSH (Port 22) for remote access
 * Database port (e.g., MySQL – 3306 or PostgreSQL – 5432)
 
----
 
 ### Task 3: Connect to EC2 Instance
 
@@ -80,37 +77,25 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ---
 
-## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
-
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
-
----
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EC2 Instance for Database Server
 
-(Insert Screenshot Here)
+<img width="1600" height="999" alt="image" src="https://github.com/user-attachments/assets/850398c0-34fe-4406-b043-8c9dcc94c55d" />
 
----
+
 
 ### Screenshot 2: Database Service Running
 
-(Insert Screenshot Here)
+<img width="1600" height="999" alt="image" src="https://github.com/user-attachments/assets/716672be-8d94-480b-a846-0383456f8cce" />
 
----
 
 ### Screenshot 3: Sample Database and Table
 
-(Insert Screenshot Here)
+<img width="1600" height="998" alt="image" src="https://github.com/user-attachments/assets/80455964-99b3-43b4-9683-979f3d32b542" />
 
----
 
 ## Result
 
